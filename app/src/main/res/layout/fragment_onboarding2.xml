@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OnboardingActivity3"
-    android:background="@drawable/onboarding3">
+    android:background="@drawable/onboarding2">
 
     <ImageView
         android:id="@+id/btnBack"
@@ -21,20 +20,22 @@
     <ImageView
         android:id="@+id/logoImage"
         android:layout_width="300dp"
-        android:layout_height="189dp"
-        android:src="@drawable/onboardin3logo"
+        android:layout_height="300dp"
+        android:src="@drawable/robot"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.38"
+        app:layout_constraintVertical_bias="0.35"
         android:contentDescription="logo" />
+
+    <!-- Title -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="🚀 Ready to\n explore?"
+        android:text="🤖 AI that works\n with you"
         android:textColor="@android:color/black"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -42,20 +43,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.66" />
+
+    <!-- Description -->
     <TextView
         android:id="@+id/tvDesc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:gravity="center"
-        android:text="Your journey starts here. Sign\n up and let’s build something\n amazing together."
+        android:text="Get real-time help, automate\n tasks, and make smarter\n decisions—anytime\n, anywhere."
         android:textColor="@android:color/darker_gray"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
+    <!-- Skip Button -->
     <Button
         android:id="@+id/btnSkip"
         android:layout_width="wrap_content"
@@ -67,13 +71,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Next Button -->
     <Button
-        android:id="@+id/btnGetStarted"
+        android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
         android:backgroundTint="@android:color/black"
-        android:text="CONTINUE"
+        android:text="NEXT"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

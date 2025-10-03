@@ -20,7 +20,7 @@ class SplashScreen : AppCompatActivity() {
             if (isOnboardingDone) {
                 startActivity(Intent(this, CreateAccountActivity::class.java))
             } else {
-                startActivity(Intent(this, OnboardingActivity1::class.java))
+                startActivity(Intent(this, OnboardingActivity::class.java))
             }
             finish()
         }, 2000)
