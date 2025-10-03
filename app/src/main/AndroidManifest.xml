@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoopDial">
         <activity
-            android:name=".SplashScreen"
+            android:name=".OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardCallsActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPasswordActivity"
@@ -20,30 +23,19 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
-
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".VerifyEmailActivity"
             android:exported="false" />
         <activity
-            android:name=".OnboardingActivity3"
-            android:exported="false" />
-        <activity
-            android:name=".OnboardingActivity2"
-            android:exported="false" />
-        <activity
             android:name=".CreateAccountActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize"/>
-
-        <activity
-            android:name=".OnboardingActivity1"
-            android:exported="false" />
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".DashboardCallsActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
