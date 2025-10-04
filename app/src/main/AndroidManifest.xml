@@ -18,17 +18,17 @@
             android:name=".DashboardCallsActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name="com.example.auth.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.auth.LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".VerifyEmailActivity"
+            android:name="com.example.auth.VerifyEmailActivity"
             android:exported="false" />
         <activity
-            android:name=".CreateAccountActivity"
+            android:name="com.example.auth.CreateAccountActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity

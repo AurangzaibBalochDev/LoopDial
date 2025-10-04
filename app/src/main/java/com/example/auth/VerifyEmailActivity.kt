@@ -1,4 +1,4 @@
-package com.example.loopdial
+package com.example.auth
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.loopdial.R
 
 class VerifyEmailActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")

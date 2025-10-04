@@ -2,6 +2,7 @@ package com.example.loopdial
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.adapters.OnboardingPagerAdapter
 import com.example.loopdial.databinding.ActivityOnboardingBinding
 
 class OnboardingActivity : AppCompatActivity() {
@@ -16,7 +17,6 @@ class OnboardingActivity : AppCompatActivity() {
         val adapter = OnboardingPagerAdapter(this)
         binding.viewPager.adapter = adapter
 
-        // Attach dots indicator
         binding.dotsIndicator.attachTo(binding.viewPager)
     }
 

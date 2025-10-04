@@ -3,6 +3,7 @@ package com.example.loopdial
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.auth.CreateAccountActivity
 import com.example.loopdial.databinding.ActivitySplashScreenBinding
 
 class SplashScreen : AppCompatActivity() {
